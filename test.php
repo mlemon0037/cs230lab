@@ -10,8 +10,3 @@
 
 </body>
 </html>
-
-
-git branch -M main
-git remote add origin git@github.com:mlemon0037/cs230lab.git
-git push -u origin main
