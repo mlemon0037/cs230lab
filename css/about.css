@@ -1,0 +1,38 @@
+main {
+    font-family: 'Helvetica';
+    text-align: center;
+
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+.about {
+    background: rgb(6, 143, 167);
+    padding: 1%;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    box-shadow: 4px 2px 4px 2px #b3b3b3f5;
+}
+
+.column {
+    float: left;
+    margin-right: 16px;
+    margin: 10px;
+    width: 23%;
+}
+
+.card {
+    box-shadow: 8px 2px 8px 2px #b3b3b3f5;
+    padding: 4px 16px 4px 16px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
