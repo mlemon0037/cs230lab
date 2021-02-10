@@ -5,7 +5,7 @@
         <h1>About Us</h1>
         <p>We sell really real car parts that are all totally real.</p>
     </div>
-    <div class="row">
+    <div class="row center-me">
         <div class="column">
             <div class="card">
                 <img src="images/george_washington.jpg"/>
