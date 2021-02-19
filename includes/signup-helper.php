@@ -33,7 +33,7 @@ if (isset($_POST['signup-submit'])) {
                 $sql = "INSERT INTO users (lname, fname, email, uname, password) VALUES (?, ?, ?, ?, ?)";
                 $stmt = mysqli_stmt_init($conn);
                 if (!mysqli_stmt_prepare($stmt, $sql)) {
-                    header("Location: ../signup.php?error=SQLInjection"); #(ò_óˇ)
+                    header("Location: ../signup.php?error=SQLInjection"); #(ò_óˇ) i see you
                     exit();
                 } else {
                     $hashed = password_hash($passw, PASSWORD_BCRYPT);

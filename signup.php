@@ -32,11 +32,6 @@ require "includes/header.php"
             <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password" required>
             <label for="inputPassword" class="sr-only">Confirm Password</label>
             <input type="password" id="inputPassword" class="form-control" name="con-pwd" placeholder="Confirm Password" required>
-            <div class="checkbox mb-3">
-              <label>
-                <input type="checkbox" value="remember-me"> Remember me
-              </label>
-            </div>
             <button class="btn btn-lg btn-outline-primary btn-block" name="signup-submit" type="submit">Sign in</button>
             <p class="mt-5 mb-3 text-muted">&copy; 2021-Heat Death of the Universe</p>
 
