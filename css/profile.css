@@ -1,7 +1,21 @@
+#prof-display {
+    display: block;
+
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
 .center-me {
     display: flex;
     justify-content: center;
     padding: 40px;
+    text-align: center;
+}
+
+#uname-style {
+    font-size:20px;
+    font-weight: bold;
 }
 
 .bg-cover {
@@ -11,11 +25,4 @@
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat; 
-}
-
-.form-signin {
-    border-radius: 50px;
-    background-color: #d5d5d5;
-    padding: 20px;
-    text-align: center;
 }
