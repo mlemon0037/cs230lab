@@ -34,7 +34,7 @@ img {
 }
 
 .gallery-container a {
-    background-color: red;
+    background-color: grey;
     background-position: center;
     background-size: cover;
     border-radius: 10px;

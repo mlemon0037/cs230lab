@@ -17,8 +17,7 @@ require 'includes/review-helper.php';
                     <i class="fa fa-star fa-2x star-rev" data-index="5"></i>
                 </div>
                 <div class="form-group" style="margin-top: 15px;">
-                    <label class="title-label" for="review-title" style="font-size: 16px; font-weight: bold;">Title</label>
-                    <input type="text" name="review-title" id="review-title" style="width: 100%; margin-bottom: 10px;">
+                    <input type="text" name="review-title" id="review-title" style="width: 100%; margin-bottom: 10px;" placeholder="title">
                     <textarea name="review" id="review-text" placeholder="Enter a comment..." cols="30" rows="10"></textarea>
 
                     <input type="hidden" name="rating" id="rating">
@@ -78,7 +77,7 @@ $(document).ready(function() {
 
     function reset_star() {
         $('.star-rev').css('color', 'grey');
-    }
+    }css
 
 
     //Used to interchangeably send GET requests for review display data. 
